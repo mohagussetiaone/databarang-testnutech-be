@@ -4,8 +4,9 @@
   "main": "index.js",
   "description": "",
   "scripts": {
-    "start": "nodemon --exec babel-node ./server/index",
-    "dev": "nodemon --exec babel-node ./server/index"
+    "test": "mocha tests/unit/",
+    "dev": "nodemon ./server/index.js",
+    "start": "node  ./server/index.js"
   },
   "keywords": [],
   "author": "",
