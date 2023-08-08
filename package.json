@@ -4,8 +4,8 @@
   "main": "index.js",
   "description": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon --exec babel-node ./server/index"
+    "start": "node --exec babel-node ./server/index",
+    "dev": "nodemon --exec babel-node ./server/index"
   },
   "keywords": [],
   "author": "",
