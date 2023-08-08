@@ -4,7 +4,7 @@
   "main": "index.js",
   "description": "",
   "scripts": {
-    "start": "node --exec babel-node ./server/index",
+    "start": "nodemon --exec babel-node ./server/index",
     "dev": "nodemon --exec babel-node ./server/index"
   },
   "keywords": [],
