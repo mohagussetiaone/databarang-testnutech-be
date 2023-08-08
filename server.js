@@ -1,6 +1,6 @@
 import express from "express";
-import upload from "../uploads/upload";
-import { createBarang, getBarang, getBarangById, updateBarang, deleteBarang } from "../controllers/barangController";
+import upload from "./uploads/upload";
+import { createBarang, getBarang, getBarangById, updateBarang, deleteBarang } from "./controllers/barangController";
 
 const app = express();
 const port = 3000;
