@@ -3,11 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "description": "",
-  "type": "module",
   "scripts": {
     "test": "mocha tests/unit/",
-    "start": "node server.js",
-    "dev": "node server.js"
+    "dev": "nodemon ./server.js",
+    "start": "node ./server.js"
   },
   "keywords": [],
   "author": "",
