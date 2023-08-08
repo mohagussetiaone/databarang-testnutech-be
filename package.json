@@ -6,8 +6,8 @@
   "type": "module",
   "scripts": {
     "test": "mocha tests/unit/",
-    "dev": "nodemon server.js",
-    "start": "node  server.js"
+    "start": "node server.js",
+    "dev": "node server.js"
   },
   "keywords": [],
   "author": "",
