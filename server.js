@@ -1,10 +1,12 @@
 const express = require("express");
 const upload = require("./uploads/upload.js");
+const cors = require("cors");
 const { createBarang, getBarang, getBarangById, updateBarang, deleteBarang } = require("./controllers/barangController");
 
 const app = express();
 const port = 3000;
 
+app.use(cors());
 app.use(express.json());
 
 app.post("/barang", upload.single("foto_barang"), createBarang);
